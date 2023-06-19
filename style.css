@@ -43,10 +43,18 @@
 
 }
 
-.main-item{
+
+.main-item-left, 
+.main-item-right{
     display: flex;
     align-items: center;
     column-gap: 5px;
+}
+
+.main-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: #a9a8d2;
     padding: 10px 0;
     border-bottom: 1px solid #a9a8d2;
@@ -83,7 +91,11 @@ body{
 }
 
 
-
+.footer-center button.active {
+    
+    color: rgb(57, 54, 214);
+  }
+  
 
 
 
